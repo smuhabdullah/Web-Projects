@@ -1,0 +1,46 @@
+*{  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    border-radius: 2px;
+    border-style: none;
+}
+th {
+    padding: 6px;
+    text-align: left;
+}
+table {
+    width: 70%;
+    font-size: 20px;
+}
+.label{
+    font-size:40px;
+    /* color: rgb(113, 212, 219); */
+    text-align: center;
+}
+form{
+    border-radius:7px;
+    background-color: rgb(227, 230, 228);
+    box-shadow: 5px 3px 5px #636161;
+    width: 90%;
+}
+.b{
+    background-color: rgb(247, 247, 242);
+    font-size: 100%;
+    border-style: initial;
+    border-radius: 40px;
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+}
+
+#c{
+    text-align: center;
+}
+body{
+    background-color: rgb(181, 172, 189);
+}
+input{
+    height: 25px;
+}
+input.date{
+    width: 165px;
+}

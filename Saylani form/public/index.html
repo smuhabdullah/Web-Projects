@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Saylani Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center >
+        <form action="Submit.html">
+            <h4 align="center"><img src="saylani.png" alt="Saylani-logo"></h4>
+            <h1 class="label"><u> Student Registration Form </u></h1>
+
+            <table align="center">
+                <tr>
+                    <th>First name</th>
+                    <td><input type='text' maxlength="30" placeholder="Enter First Name" required>(max 30 chr a-z or A-Z)
+                        </input>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Last name</th>
+                    <td><input type='text' maxlength="30" placeholder="Enter Last Name">(max 30 chr a-z or A-Z)</input>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Date Of Birth</th>
+                    <td><input type="date" name="bday" required class="date"></td>
+                </tr>
+                <tr>
+                    <th>E-mail</th>
+                    <td><input type="email" name="email" autocomplete="off" required placeholder="Enter E-mail address"></td>
+                </tr>
+                <tr>
+                    <th>Mobile Number</th>
+                    <td><input type="number" maxlength="10" placeholder="Enter Mobile Number">(10 digit number)</input>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Gender</th>
+                    <td><input type="radio" name="gender" value="male"> Male <input type="radio" name="gender" value="female"> Female <input type="radio" name="gender" value="Other"> Other</td>
+                </tr>
+                <tr>
+                    <th>Address</th>
+                    <td><textarea type="text" rows="3" cols="30"></textarea></td>
+                </tr>
+                <tr>
+                    <th>City</th>
+                    <td><input type="text" maxlength="30" required placeholder="Enter City Name">(max 30 chr a-z or A-Z)</td>
+                </tr>
+                <tr>
+                    <th>Pin Code</th>
+                    <td><input type="number" maxlength="6" placeholder="Enter Pin code">(6 digit number)</td>
+                </tr>
+                <tr>
+                    <th>State</th>
+                    <td><input type="text" maxlength="30" placeholder="Enter State">(max 30 chr a-z or A-Z)</td>
+                </tr>
+                <tr>
+                    <th>Country</th>
+                    <td>
+                        <form>
+                            <input list="browsers" name="browser" placeholder="Enter Country" required>
+                            <datalist id="browsers">
+                            <option value="India">
+                            <option value="Pakistan">
+                            <option value="USA">
+                            <option value="IRAN">
+                            <option value="CHINA">
+                        </datalist>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Hobbies</th>
+                    <td>Singing<input type="checkbox">Dancing<input type="checkbox">Sketching<input type="checkbox">Other<input type="checkbox"><input type="text"></td>
+                </tr>
+            </table>
+            <table align="center">
+                <tr>
+                    <th a> Qualification</th>
+                    <th></th>
+                    <td align="center">S.No</td>&emsp;
+                    <td align="center">Examination</td>
+                    <td align="center">Board</td>
+                    <td align="center">Percentage</td>
+                    <td align="center">Year Of Passing</td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td><input type="text" maxlength="10" required></td>
+                    <td><input type="text" required></td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <td>2</td>
+                    <td>Class XII</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <td>4</td>
+                    <td>Masters</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <th colspan="4"></th>
+                    <td id="c">(10 Char max)</td>
+                    <td id="c">(Upto 2 decimal)</td>
+                </tr>
+            </table>
+            <table align="center">
+                <tr>
+                    <th>Courses</th>
+                    <td>BCA<input type="radio" name="Courses" value="BCA"></td>
+                    <td>B.COM<input type="radio" name="Courses" value="B.COM"></td>
+                    <td>B.Sc<input type="radio" name="Courses" value="B.Sc"></td>
+                    <td>BA<input type="radio" name="Courses" value="BA"></td>
+                </tr>
+            </table>
+            <p align="center"><input type="submit" class="b">&emsp13;&emsp14;&emsp14;<input type="reset" class="b"></p>
+            <br>
+        </form>
+    </center>
+</body>
+
+</html>

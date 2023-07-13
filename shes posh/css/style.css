@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    /* font-family: ; */
+}
+.cardimage {
+  max-width: 350px;
+  max-height: 200px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.hover:hover{
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+body{
+  color: rgb(0, 0, 0);
+}
+a.hov :hover{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+a.o:hover{
+  color: rgb(109, 109, 109);
+  text-decoration: none;
+}
+.cls-1{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+a.cls-1:hover{
+  
+  text-decoration: none;
+  color: rgb(109, 109, 109);
+}
